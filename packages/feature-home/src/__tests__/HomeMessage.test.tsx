@@ -1,10 +1,10 @@
-import { cleanup, render, screen } from '@testing-library/react-native';
+import { cleanup, render, screen } from '@testing-library/react-native'
 
-import { HomeMessage } from '../HomeMessage';
+import { HomeMessage } from '../HomeMessage'
 
-afterEach(cleanup);
+afterEach(cleanup)
 
 it('says Expo monorepo', () => {
-  render(<HomeMessage />);
-  expect(screen.getByText('Expo monorepo')).toBeDefined();
-});
+  render(<HomeMessage />)
+  expect(screen.getByText('Expo monorepo')).toBeDefined()
+})

@@ -22,7 +22,7 @@
     "@acme/eslint-config": "workspace:*",
     "@testing-library/react-native": "^12.9.0",
     "@tsconfig/recommended": "^1.0.8",
-   "@types/jest": "^29.5.14",
+    "@types/jest": "^29.5.14",
     "@types/react": "~18.3.18",
     "babel-preset-expo": "~12.0.6",
     "expo": "~52.0.26",
